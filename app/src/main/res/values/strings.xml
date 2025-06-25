@@ -41,7 +41,7 @@
         <item>Day before reminder at 09:00 AM</item>
     </string-array>
 
-    <string name="admob_banner_ad_unit_id">ca-app-pub-6953667629221188/8176471519</string>
-    <string name="admob_interstitial_ad_unit_id">ca-app-pub-6953667629221188/9736965198</string>
+    <string name="admob_banner_ad_unit_id">ABCD</string>
+    <string name="admob_interstitial_ad_unit_id">ABCD</string>
 
 </resources>
