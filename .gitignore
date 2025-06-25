@@ -29,7 +29,6 @@ app/release/app-release.aab
 .idea/AndroidProjectSystem.xml
 app/proguard-rules.pro
 app/src/main/java/com/steph/reminder/app-ads.txt
-gradle/libs.versions.toml
 app/src/test/java/com/steph/reminder/ExampleUnitTest.kt
 app/src/androidTest/java/com/steph/reminder/ExampleInstrumentedTest.kt
 app/google-services.json
