@@ -34,3 +34,4 @@ app/src/test/java/com/steph/reminder/ExampleUnitTest.kt
 app/src/androidTest/java/com/steph/reminder/ExampleInstrumentedTest.kt
 app/google-services.json
 app/src/main/res/values/sensitive_strings.xml
+app/src/main/res/values/sensitive_strings.xml
