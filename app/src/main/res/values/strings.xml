@@ -41,7 +41,4 @@
         <item>Day before reminder at 09:00 AM</item>
     </string-array>
 
-    <string name="admob_banner_ad_unit_id">ABCD</string>
-    <string name="admob_interstitial_ad_unit_id">ABCD</string>
-
 </resources>

@@ -13,7 +13,7 @@
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ABCD"/>
+            android:value="@string/admob_application_id"/>
 
         <activity
             android:name="com.steph.reminder.MainActivity"
