@@ -1,0 +1,85 @@
+// App-level build.gradle
+
+plugins {
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.kotlin.compose)
+}
+
+android {
+
+    namespace 'com.steph.reminder'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.steph.reminder"
+        minSdk 23
+        targetSdk 35
+        versionCode 3
+        versionName "1.2"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    kotlinOptions {
+        jvmTarget = '11'
+    }
+
+    buildFeatures {
+        compose true
+    }
+}
+
+dependencies {
+
+    implementation platform(libs.androidx.compose.bom)
+
+    implementation libs.androidx.core.ktx
+    implementation libs.androidx.lifecycle.runtime.ktx
+    implementation libs.androidx.activity.compose
+    implementation libs.androidx.ui
+    implementation libs.androidx.ui.graphics
+    implementation libs.androidx.ui.tooling.preview
+    implementation libs.androidx.material3
+    implementation libs.androidx.appcompat
+    implementation libs.androidx.recyclerview
+
+    implementation libs.appcompat.v7
+    implementation libs.constraint.layout
+
+    implementation libs.material
+    implementation libs.places
+    implementation libs.mpandroidchart
+
+    implementation libs.retrofit
+    implementation libs.converter.gson
+    implementation libs.gson
+    implementation libs.play.services.ads.api
+
+    implementation "androidx.room:room-runtime:2.4.3"
+    annotationProcessor "androidx.room:room-compiler:2.4.3"
+
+    debugImplementation libs.androidx.ui.tooling
+    debugImplementation libs.androidx.ui.test.manifest
+
+    testImplementation libs.junit
+
+    androidTestImplementation libs.androidx.junit
+    androidTestImplementation libs.androidx.espresso.core
+    androidTestImplementation platform(libs.androidx.compose.bom)
+    androidTestImplementation libs.androidx.ui.test.junit4
+
+    implementation 'com.prolificinteractive:material-calendarview:1.4.3'
+
+}

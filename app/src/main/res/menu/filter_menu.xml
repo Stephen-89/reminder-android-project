@@ -1,0 +1,77 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_sort"
+        android:title="Sort by">
+        <menu>
+            <item
+                android:id="@+id/filter_date_asc"
+                android:title="Date"
+                android:icon="@drawable/ic_calendar_ascending"/>
+            <item
+                android:id="@+id/filter_date_desc"
+                android:title="Date"
+                android:icon="@drawable/ic_calendar_descending"/>
+            <item
+                android:id="@+id/filter_priority_asc"
+                android:title="Priority"
+                android:icon="@drawable/ic_sort_ascending"/>
+            <item
+                android:id="@+id/filter_priority_desc"
+                android:title="Priority"
+                android:icon="@drawable/ic_sort_descending"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_filter_time"
+        android:title="Filter by Time">
+        <menu>
+            <item
+                android:id="@+id/filter_today"
+                android:title="Today"
+                android:icon="@drawable/ic_calendar_today"/>
+            <item
+                android:id="@+id/filter_week"
+                android:title="This Week"
+                android:icon="@drawable/ic_calendar_week"/>
+            <item
+                android:id="@+id/filter_month"
+                android:title="This Month"
+                android:icon="@drawable/ic_calendar_month"/>
+            <item
+                android:id="@+id/filter_all"
+                android:title="All"
+                android:icon="@drawable/ic_calendar_all"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_filter_priority"
+        android:title="Filter by Priority">
+        <menu>
+            <item
+                android:id="@+id/filter_priority_high"
+                android:title="High"
+                android:icon="@drawable/ic_priority_high"/>
+            <item
+                android:id="@+id/filter_priority_medium"
+                android:title="Medium"
+                android:icon="@drawable/ic_menu_open" />
+            <item
+                android:id="@+id/filter_priority_low"
+                android:title="Low"
+                android:icon="@drawable/ic_priority_low" />
+            <item
+                android:id="@+id/filter_priority_none"
+                android:title="No Priority"
+                android:icon="@drawable/ic_menu" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/filter_previous"
+        android:title="Previous"
+        android:icon="@drawable/ic_calendar_previous" />
+
+</menu>

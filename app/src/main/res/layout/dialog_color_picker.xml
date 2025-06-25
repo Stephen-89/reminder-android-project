@@ -1,0 +1,12 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/colorGrid"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="5"
+    android:padding="16dp"
+    android:alignmentMode="alignMargins"
+    android:rowCount="2">
+
+    <!-- These views will be added dynamically from code -->
+
+</GridLayout>
