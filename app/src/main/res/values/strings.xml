@@ -1,18 +1,44 @@
 <resources>
 
-    <string name="app_name">Distance Tracker</string>
+    <string name="app_name">Reminder</string>
 
-    <string-array name="sex_options">
-        <item>Female</item>
-        <item>Male</item>
+    <string-array name="reminder_types">
         <item>Other</item>
+        <item>Meeting</item>
+        <item>Event</item>
+        <item>Class</item>
+        <item>Anniversary</item>
+        <item>Birthday</item>
+        <item>Flight</item>
+        <item>Appointment</item>
+        <item>Exercise</item>
+        <item>Rent</item>
     </string-array>
 
-    <string-array name="activity_types">
-        <item>Walking</item>
-        <item>Running</item>
-        <item>Cycling</item>
-        <item>Pushing</item>
+    <string-array name="repeat_types">
+        <item>No Repeat</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Yearly</item>
+    </string-array>
+
+    <string-array name="priority_types">
+        <item>No Priority</item>
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+
+    <string-array name="reminder_time">
+        <item>Time of reminder</item>
+        <item>30 minutes before reminder</item>
+        <item>1 hour before reminder</item>
+    </string-array>
+
+    <string-array name="reminder_time_daily">
+        <item>Day of reminder at 09:00 AM</item>
+        <item>Day before reminder at 09:00 AM</item>
     </string-array>
 
 </resources>
